@@ -61,13 +61,11 @@ export class ServerElementComponent
 
   ngAfterContentChecked(): void {
     console.log('ngAfterContentChecked called!');
-    // This is even earlier than what Max explains in the video. The text content is
-    // available after the content has been checked. Which is one step before AfterViewInit
-    console.log(`Text Content: ${this.header.nativeElement.textContent}`);
   }
 
   ngAfterViewInit(): void {
     console.log('ngAfterViewInit called!');
+    console.log(`Text Content: ${this.header.nativeElement.textContent}`);
   }
 
   ngAfterViewChecked(): void {
