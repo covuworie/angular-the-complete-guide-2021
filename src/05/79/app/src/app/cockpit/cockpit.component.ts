@@ -24,7 +24,7 @@ export class CockpitComponent implements OnInit {
   // newServerName = '';
   // newServerContent = '';
   @ViewChild('serverContentElement', { static: true })
-  serverContentElement: ElementRef;
+  serverContentElement: ElementRef<HTMLInputElement>;
 
   constructor() {}
 
