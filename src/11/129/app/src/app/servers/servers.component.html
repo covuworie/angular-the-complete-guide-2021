@@ -1,0 +1,21 @@
+<div class="row">
+  <div class="col-xs-12 col-sm-4">
+    <div class="list-group">
+      <a href="#" class="list-group-item" *ngFor="let server of servers">
+        {{ server.name }}
+      </a>
+    </div>
+  </div>
+  <div class="col-xs-12 col-sm-4">
+    <!-- Absolute path: Always appended to the root domain -->
+    <!-- <a routerLink="/servers">Reload Page</a> -->
+    <!-- Relative paths (2 ways): Always added to the currently loaded path -->
+    <!-- <a routerLink="servers">Reload Page</a>
+    <a routerLink="./servers">Reload Page</a> -->
+    <!-- Go up 1, 2 paths etc: Always seen from the currently loaded path -->
+    <!-- <a routerLink="../../servers">Reload Page</a> -->
+    <app-edit-server></app-edit-server>
+    <hr />
+    <app-server></app-server>
+  </div>
+</div>
