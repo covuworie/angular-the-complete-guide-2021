@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "angular.ng-template",
+    "esbenp.prettier-vscode",
+    "johnpapa.angular2"
+  ]
+}
