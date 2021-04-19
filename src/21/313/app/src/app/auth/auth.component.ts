@@ -4,6 +4,7 @@ import { NgForm } from '@angular/forms';
 import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
 import { AlertComponent } from '../shared/alert/alert.component';
+import { PlaceholderDirective } from '../shared/placeholder/placeholder.directive';
 import {
   SignUpResponseData,
   AuthService,
@@ -19,6 +20,8 @@ export class AuthComponent {
   isLoginMode = true;
   isLoading = false;
   error = '';
+  @ViewChild(PlaceholderDirective, { static: false })
+  alertHost: PlaceholderDirective;
 
   constructor(
     private authService: AuthService,
@@ -74,5 +77,9 @@ export class AuthComponent {
     const alertComponentFactory = this.componentFactoryResolver.resolveComponentFactory(
       AlertComponent
     );
+    const hostViewContainerRef = this.alertHost.viewContainerRef;
+    hostViewContainerRef.clear(); // clears all components rendered before in this place
+
+    hostViewContainerRef.createComponent(alertComponentFactory);
   }
 }

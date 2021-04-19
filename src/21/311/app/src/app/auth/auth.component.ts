@@ -1,10 +1,8 @@
 import { HttpErrorResponse } from '@angular/common/http';
-import { Component, ComponentFactoryResolver, ViewChild } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
-import { AlertComponent } from '../shared/alert/alert.component';
-import { PlaceholderDirective } from '../shared/placeholder/placeholder.directive';
 import {
   SignUpResponseData,
   AuthService,
@@ -20,14 +18,8 @@ export class AuthComponent {
   isLoginMode = true;
   isLoading = false;
   error = '';
-  @ViewChild(PlaceholderDirective, { static: false })
-  alertHost: PlaceholderDirective;
 
-  constructor(
-    private authService: AuthService,
-    private router: Router,
-    private componentFactoryResolver: ComponentFactoryResolver
-  ) {}
+  constructor(private authService: AuthService, private router: Router) {}
 
   onSwitchMode() {
     this.isLoginMode = !this.isLoginMode;
@@ -61,7 +53,6 @@ export class AuthComponent {
       (errorMessage: string) => {
         console.log(errorMessage);
         this.error = errorMessage;
-        this.showErrorAlert(errorMessage);
         this.isLoading = false;
       }
     );
@@ -71,15 +62,5 @@ export class AuthComponent {
 
   onCloseModal() {
     this.error = '';
-  }
-
-  private showErrorAlert(message: string) {
-    const alertComponentFactory = this.componentFactoryResolver.resolveComponentFactory(
-      AlertComponent
-    );
-    const hostViewContainerRef = this.alertHost.viewContainerRef;
-    hostViewContainerRef.clear(); // clears all components rendered before in this place
-
-    hostViewContainerRef.createComponent(alertComponentFactory);
   }
 }

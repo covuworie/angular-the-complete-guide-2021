@@ -6,11 +6,11 @@
     <!-- <div class="alert alert-danger" *ngIf="error">
       <p>{{ error }}</p>
     </div> -->
-    <app-alert
+    <!-- <app-alert
       [message]="error"
       *ngIf="error"
       (close)="onCloseModal()"
-    ></app-alert>
+    ></app-alert> -->
     <form #authForm="ngForm" (ngSubmit)="onSubmit()" *ngIf="!isLoading">
       <div class="form-group">
         <label for="email">Email</label>
