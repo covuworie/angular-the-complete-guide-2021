@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "dracula-theme.theme-dracula",
+    "esbenp.prettier-vscode",
+    "johnpapa.angular-essentials",
+    "PKief.material-icon-theme",
+  ]
+}
