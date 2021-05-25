@@ -21,35 +21,35 @@ If you wish to deploy the app then run the command `npm run build` from the proj
 
 ## Course Overview
 
-- Section 1: Getting Started
-- Section 2: The Basics
-- Section 3: Course Project - The Basics
-- Section 4: Debugging
-- Section 5: Components & Databinding Deep Dive
-- Section 6: Course Project - Components & Databinding
-- Section 7: Directives Deep Dive
-- Section 8: Course Project - Directives
-- Section 9: Using Services & Dependency Injection
-- Section 10: Course Project - Services & Dependency Injection
-- Section 11: Changing Pages with Routing
-- Section 12: Course Project - Routing
-- Section 13: Understanding Observables
-- Section 14: Course Project - Observables
-- Section 15: Handling Forms in Angular Apps
-- Section 16: Course Project - Forms
-- Section 17: Using Pipes to Transform Output
-- Section 18: Making Http Requests
-- Section 19: Course Project - Http
-- Section 20: Authentication & Route Protection in Angular
-- Section 21: Dynamic Components
-- Section 22: Angular Modules & Optimizing Angular Apps
-- Section 23: Deploying an Angular App
-- Section 24: Bonus: Working with NgRx in our Project
-- Section 25: Bonus: Angular Universal
-- Section 26: Angular Animations
-- Section 27: Adding Offline Capabilities with Service Workers
-- Section 28: A Basic Introduction to Unit Testing in Angular Apps
-- Section 29: Angular as a Platform & Closer Look at the CLI
-- Section 30: Angular Changes & New Features
-- Section 31: Course Roundup
-- Section 32: Bonus: TypeScript Introduction (for Angular 2 Usage)
+- [Section 1: Getting Started](https://github.com/covuworie/angular-the-complete-guide-2021/tree/main/src/01)
+- [Section 2: The Basics](https://github.com/covuworie/angular-the-complete-guide-2021/tree/main/src/02)
+- [Section 3: Course Project - The Basics](https://github.com/covuworie/angular-the-complete-guide-2021/tree/main/src/03)
+- [Section 4: Debugging](https://github.com/covuworie/angular-the-complete-guide-2021/tree/main/src/04)
+- [Section 5: Components & Databinding Deep Dive](https://github.com/covuworie/angular-the-complete-guide-2021/tree/main/src/05)
+- [Section 6: Course Project - Components & Databinding](https://github.com/covuworie/angular-the-complete-guide-2021/tree/main/src/06)
+- [Section 7: Directives Deep Dive](https://github.com/covuworie/angular-the-complete-guide-2021/tree/main/src/07)
+- [Section 8: Course Project - Directives](https://github.com/covuworie/angular-the-complete-guide-2021/tree/main/src/08)
+- [Section 9: Using Services & Dependency Injection](https://github.com/covuworie/angular-the-complete-guide-2021/tree/main/src/09)
+- [Section 10: Course Project - Services & Dependency Injection](https://github.com/covuworie/angular-the-complete-guide-2021/tree/main/src/10)
+- [Section 11: Changing Pages with Routing](https://github.com/covuworie/angular-the-complete-guide-2021/tree/main/src/11)
+- [Section 12: Course Project - Routing](https://github.com/covuworie/angular-the-complete-guide-2021/tree/main/src/12)
+- [Section 13: Understanding Observables](https://github.com/covuworie/angular-the-complete-guide-2021/tree/main/src/13)
+- [Section 14: Course Project - Observables](https://github.com/covuworie/angular-the-complete-guide-2021/tree/main/src/14)
+- [Section 15: Handling Forms in Angular Apps](https://github.com/covuworie/angular-the-complete-guide-2021/tree/main/src/15)
+- [Section 16: Course Project - Forms](https://github.com/covuworie/angular-the-complete-guide-2021/tree/main/src/16)
+- [Section 17: Using Pipes to Transform Output](https://github.com/covuworie/angular-the-complete-guide-2021/tree/main/src/17)
+- [Section 18: Making Http Requests](https://github.com/covuworie/angular-the-complete-guide-2021/tree/main/src/18)
+- [Section 19: Course Project - Http](https://github.com/covuworie/angular-the-complete-guide-2021/tree/main/src/19)
+- [Section 20: Authentication & Route Protection in Angular](https://github.com/covuworie/angular-the-complete-guide-2021/tree/main/src/20)
+- [Section 21: Dynamic Components](https://github.com/covuworie/angular-the-complete-guide-2021/tree/main/src/21)
+- [Section 22: Angular Modules & Optimizing Angular Apps](https://github.com/covuworie/angular-the-complete-guide-2021/tree/main/src/22)
+- [Section 23: Deploying an Angular App](https://github.com/covuworie/angular-the-complete-guide-2021/tree/main/src/23)
+- [Section 24: Bonus: Working with NgRx in our Project](https://github.com/covuworie/angular-the-complete-guide-2021/tree/main/src/24)
+- [Section 25: Bonus: Angular Universal](https://github.com/covuworie/angular-the-complete-guide-2021/tree/main/src/25)
+- [Section 26: Angular Animations](https://github.com/covuworie/angular-the-complete-guide-2021/tree/main/src/26)
+- [Section 27: Adding Offline Capabilities with Service Workers](https://github.com/covuworie/angular-the-complete-guide-2021/tree/main/src/27)
+- [Section 28: A Basic Introduction to Unit Testing in Angular Apps](https://github.com/covuworie/angular-the-complete-guide-2021/tree/main/src/28)
+- [Section 29: Angular as a Platform & Closer Look at the CLI](https://github.com/covuworie/angular-the-complete-guide-2021/tree/main/src/29)
+- [Section 30: Angular Changes & New Features](https://github.com/covuworie/angular-the-complete-guide-2021/tree/main/src/30)
+- [Section 31: Course Roundup](https://github.com/covuworie/angular-the-complete-guide-2021/tree/main/src/31)
+- [Section 32: Bonus: TypeScript Introduction (for Angular 2 Usage)](https://github.com/covuworie/angular-the-complete-guide-2021/tree/main/src/32)
