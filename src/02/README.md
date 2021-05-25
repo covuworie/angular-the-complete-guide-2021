@@ -12,7 +12,7 @@
 21. Working with Component Templates
 22. Working with Component Styles
 23. Fully Understanding the Component Selector
-Assignment 1: Practicing Components
+- Assignment 1: Practicing Components
 24. [OPTIONAL] Assignment Solution
 25. What is Databinding?
 26. String Interpolation
@@ -24,7 +24,7 @@ Assignment 1: Practicing Components
 32. Important: FormsModule is Required for Two-Way-Binding!
 33. Two-Way-Databinding
 34. Combining all Forms of Databinding
-Assignment 2: Practicing Databinding
+- Assignment 2: Practicing Databinding
 35. [OPTIONAL] Assignment Solution
 36. Understanding Directives
 37. Using ngIf to Output Data Conditionally
@@ -32,6 +32,6 @@ Assignment 2: Practicing Databinding
 39. Styling Elements Dynamically with ngStyle
 40. Applying CSS Classes Dynamically with ngClass
 41. Outputting Lists with ngFor
-Assignment 3: Practicing Directives
+- Assignment 3: Practicing Directives
 42. [OPTIONAL] Assignment Solution
 43. Getting the Index when using ngFor
